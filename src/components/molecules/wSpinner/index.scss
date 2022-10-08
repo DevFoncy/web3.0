@@ -1,0 +1,23 @@
+html body {
+  padding: 0;
+}
+
+.loading-component {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+
+  .img-logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .loading-component__content {
+    text-align: center;
+    margin: auto 0;
+  }
+}

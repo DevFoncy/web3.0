@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="47" viewBox="0 0 32 47">
+  <g id="Grupo_231" data-name="Grupo 231" transform="translate(-637 -736)">
+    <g id="Rectángulo_231" data-name="Rectángulo 231" transform="translate(637 743)" fill="#e4eded" stroke="#ffc42e" stroke-width="2">
+      <rect width="32" height="40" stroke="none"/>
+      <rect x="1" y="1" width="30" height="38" fill="none"/>
+    </g>
+    <g id="Trazado_1135" data-name="Trazado 1135" transform="translate(651 745)" fill="#e4eded">
+      <path d="M 11.5 14.15878200531006 L 6.212080001831055 11.28197956085205 L 5.972070217132568 11.15139961242676 L 5.732540130615234 11.28287982940674 L 0.5 14.15515518188477 L 0.5 0.5 L 11.5 0.5 L 11.5 14.15878200531006 Z" stroke="none"/>
+      <path d="M 1 1 L 1 13.31032085418701 L 5.970990180969238 10.58160972595215 L 11 13.31755924224854 L 11 1 L 1 1 M 0 0 L 12 0 L 12 15 L 5.973139762878418 11.72118949890137 L 0 15 L 0 0 Z" stroke="none" fill="#ffc42e"/>
+    </g>
+    <g id="Elipse_359" data-name="Elipse 359" transform="translate(650 736)" fill="#e4eded" stroke="#ffc42e" stroke-width="1">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6.5" fill="none"/>
+    </g>
+    <g id="Elipse_360" data-name="Elipse 360" transform="translate(640 766)" fill="#e4eded" stroke="#ffc42e" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.5" fill="none"/>
+    </g>
+    <g id="Elipse_361" data-name="Elipse 361" transform="translate(648 773)" fill="#e4eded" stroke="#ffc42e" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.5" fill="none"/>
+    </g>
+    <line id="Línea_94" data-name="Línea 94" y1="9" x2="9" transform="translate(642.5 767.5)" fill="none" stroke="#ffc42e" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_95" data-name="Línea 95" x2="7" transform="translate(656.5 767.5)" fill="none" stroke="#ffc42e" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_96" data-name="Línea 96" x2="7" transform="translate(656.5 772.5)" fill="none" stroke="#ffc42e" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_97" data-name="Línea 97" x2="7" transform="translate(656.5 777.5)" fill="none" stroke="#ffc42e" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

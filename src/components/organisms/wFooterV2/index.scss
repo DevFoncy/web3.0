@@ -1,0 +1,47 @@
+@import '../../../../public/styles/variables.scss';
+footer {
+  background: $primary-color;
+  padding: $spacing-base 0;
+  color: white;
+
+  p {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .content-wrapper {
+    display: grid;
+
+    @include media-breakpoint-up(md) {
+      padding: 0 $spacing-base * 2;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @include media-breakpoint-down(md) {
+      padding: 0 $spacing-base;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .container-social {
+    margin-top: auto;
+    margin-bottom: auto;
+    @include media-breakpoint-down(md) {
+      height: 100%;
+    }
+    h4,
+    p,
+    h5 {
+      color: white;
+    }
+    .social-networks {
+      @include media-breakpoint-down(md) {
+        justify-content: center;
+      }
+    }
+  }
+  .button-footer button {
+    padding: 15px 30px;
+    border-radius: 21px;
+  }
+}

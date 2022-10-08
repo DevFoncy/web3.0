@@ -1,0 +1,30 @@
+.component__transaction {
+  .filters_title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333438;
+    display: flex;
+    align-items: center;
+  }
+  .filters_search {
+    margin-right: 5px;
+  }
+  .filters_legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7.5px;
+  }
+
+  .legend-container {
+    margin-bottom: $spacing-base;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  .legend_status {
+    margin-top: $spacing-base;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7.5px;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../../../public/styles/variables';
+.chatbot {
+  .chatbot__button {
+    bottom: 3%;
+    //-webkit-transition: background-image 5s;
+  }
+
+  .chatbot__wtsp {
+    bottom: calc(3% + 5rem);
+  }
+
+  .chatbot__iframe {
+    position: fixed;
+    right: 3%;
+    bottom: calc(3% + 5rem);
+  }
+
+  button,
+  a {
+    border: none;
+
+    right: 3%;
+    background: none;
+    outline: none;
+    position: fixed;
+    z-index: $z-off-canvas;
+
+    img {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}

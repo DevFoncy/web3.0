@@ -1,0 +1,56 @@
+@import '../../../../public/styles/variables.scss';
+
+.Filters {
+  @include media-breakpoint-up(md) {
+    padding: $spacing-base $spacing-base * 2;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: $box-shadow;
+    border-radius: 8px;
+
+    @include media-breakpoint-up(md) {
+      padding: $spacing-base/2 $spacing-base;
+    }
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
+    p {
+      margin-bottom: 0;
+    }
+
+    li {
+      padding: $spacing-base/3 $spacing-base;
+      border-radius: 16px;
+      &:hover {
+        border: 0.5px dotted $secondary-color;
+      }
+    }
+    .selected {
+      background-color: $secondary-color;
+      transition: background-color 500ms ease-out;
+      p {
+        color: white;
+      }
+    }
+  }
+}
+
+.Filters-active {
+  @include media-breakpoint-up(md) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: calc(90% - 200px);
+    z-index: 100;
+    // background-color: white;
+    padding: 0 !important;
+    transition: all 200ms ease-in;
+    ul {
+      margin-bottom: 0;
+      box-shadow: none;
+    }
+    background-color: white;
+  }
+}

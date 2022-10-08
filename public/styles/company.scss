@@ -1,0 +1,20 @@
+$color-banner: '#161616';
+$color-main: '#ddd';
+
+//this variable could be 1200px, 1400px definira el ancho de la pagina en este caso sera un fluid
+$max-width-container: 100%;
+
+.react-responsive-modal-modal {
+  // padding: 0 !important;
+  // overflow-y: hidden !important;
+  // // max-width: 1000px !important;
+  // // width: 900px !important;
+  // @include media-breakpoint-up(md) {
+  //   max-width: 1000px !important;
+  //   width: 900px !important;
+  // }
+}
+
+.customOverlay {
+  background: rgb(0 0 0 / 75%) !important;
+}

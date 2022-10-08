@@ -1,0 +1,43 @@
+@import '../../../../public/styles/variables.scss';
+$padding-left-ul: 20px;
+$size-arrow: 12px;
+.header {
+  min-height: $navbar-height;
+  background: $primary-color;
+  padding: $spacing-base/6 0;
+  color: $blue-color;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  // position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  @include media-breakpoint-down(md) {
+    padding: 5px 0;
+  }
+
+  .content-wrapper {
+    // @extend .all-center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+nav {
+  // width: 100%;
+  display: flex;
+  // justify-content: end;
+  align-items: center;
+  background-color: $primary-color;
+  @include media-breakpoint-down(md) {
+    justify-content: right !important;
+  }
+}
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  > li {
+    color: white;
+    padding: 0 20px;
+  }
+}

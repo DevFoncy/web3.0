@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="56.004" viewBox="0 0 25 56.004">
+  <g id="Grupo_53" data-name="Grupo 53" transform="translate(-671 -651)">
+    <g id="Rectángulo_4" data-name="Rectángulo 4" transform="translate(671 651)" fill="none" stroke="#1b1c3b" stroke-width="1">
+      <rect width="25" height="37" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="36" rx="11.5" fill="none"/>
+    </g>
+    <line id="Línea_6" data-name="Línea 6" y2="7" transform="translate(683.5 659.5)" fill="none" stroke="#1b1c3b" stroke-linecap="round" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M15.059,10.961,11.451,7.355a.682.682,0,0,1,.965-.962L16.5,10.478a.68.68,0,0,1,.02.94l-4.105,4.114a.682.682,0,1,1-.965-.962Z" transform="translate(694.73 690.301) rotate(90)" fill="#1b1c3b"/>
+  </g>
+</svg>

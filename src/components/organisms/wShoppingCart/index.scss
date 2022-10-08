@@ -1,0 +1,80 @@
+@import '../../../../public/styles/variables.scss';
+$widthModal: 400px;
+.ShoppingCart {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+
+  #sidebar {
+    position: fixed;
+    width: $widthModal;
+    height: 100%;
+    background: white;
+    right: -$widthModal;
+    transition: all 500ms linear;
+    &.active {
+      right: 0px;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .shopping-header {
+    background-color: #e8e8e8;
+    display: flex;
+    padding: $spacing-base $spacing-base/2;
+
+    .icon {
+      margin-left: auto;
+      background-color: #d90f11;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      svg {
+        width: inherit;
+        height: inherit;
+        padding: 8px;
+      }
+      path {
+        fill: white;
+      }
+    }
+  }
+  .shopping-body {
+    padding: $spacing-base/2 $spacing-base;
+    background-color: white;
+    overflow-y: scroll;
+    max-height: 600px;
+    li {
+      border-top: 3px solid #cccccc;
+      // border-bottom: 3px solid #cccccc;
+    }
+
+    img {
+      border: 1px solid #707070;
+      border-radius: 10px;
+    }
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+  .shopping-price {
+    border-top: 3px solid #cccccc;
+    border-bottom: 3px solid #cccccc;
+  }
+
+  .shopping-footer {
+    button {
+      width: 100%;
+    }
+    .space-between button {
+      display: flex;
+      justify-content: space-between;
+    }
+    svg {
+      fill: white;
+    }
+  }
+}

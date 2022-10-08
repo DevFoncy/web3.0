@@ -1,0 +1,11 @@
+@import '../../../../public/styles/variables';
+.component__form-item {
+  margin-bottom: $spacing-base * 0.8;
+  span.is-required {
+    color: $primary-color-alt;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}

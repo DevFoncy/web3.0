@@ -1,0 +1,49 @@
+@import '../../../../public/styles/variables';
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+.container-textarea {
+  textarea {
+    color: $green-color;
+    width: 100%;
+    outline: none;
+    border: 1px solid $text-color;
+    border-radius: $border-radius * 0.25;
+    padding: $spacing-base * 0.6;
+    background: transparent;
+    &:hover,
+    &:focus {
+      border: 2px solid $green-color;
+    }
+    &:focus {
+      @include placeholder {
+        color: $green-color;
+      }
+    }
+    @include placeholder {
+      color: $black-color;
+    }
+  }
+  .alert {
+    border: 1px solid $red-color;
+    @include placeholder {
+      color: $red-color;
+    }
+  }
+}
+.border-hover {
+  textarea {
+    border: 2px solid $green-color;
+  }
+}

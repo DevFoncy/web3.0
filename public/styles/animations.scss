@@ -1,0 +1,81 @@
+//colocar aca todas las animaciones que haya en todo  el proyecto css3 , transiciones, efectos a svg
+
+/*Banner*/
+
+//Main
+
+//carrito
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes traslation {
+  from {
+    -webkit-transform: translate(-20px);
+  }
+  to {
+    -webkit-transform: translate(20px);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes move {
+  0% {
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(0%, -50%);
+  }
+}

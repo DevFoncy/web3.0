@@ -1,0 +1,36 @@
+@import '../../../../public/styles/variables.scss';
+
+$withModalLocation: 1000px;
+
+.MapLocation {
+  background-color: $primary-color;
+  color: white;
+  padding: 0 $spacing-base;
+  .map-body {
+    display: grid;
+
+    @include media-breakpoint-up(md) {
+      grid-template-columns: 0.4fr 1fr 0.4fr;
+      gap: 10px;
+    }
+
+    @include media-breakpoint-down(md) {
+      justify-content: center;
+      // gap: $spacing-base/4;
+    }
+  }
+
+  .filters_title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+  }
+
+  p,
+  ul {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}
