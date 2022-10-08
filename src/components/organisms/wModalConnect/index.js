@@ -1,17 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { useDispatch } from 'react-redux';
 import { useConnect } from 'wagmi';
 import Button from '@mui/material/Button';
-import { pathServer } from '../../../lib/shared/constants/Strings';
-import { cleanData } from '../../../lib/redux/ducks/shoppingCart';
 
 import WModal from '../../molecules/wModal';
 
 const wModalConnect = ({ open, onClose }) => {
   const { connect, connectors, error, isLoading, pendingConnector } = useConnect();
-  const onAccept = () => {};
 
   return (
     <WModal width={500} height={400} open={open} onClose={onClose}>
